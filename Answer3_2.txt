@@ -1,0 +1,59 @@
+1. ?- include(x,longKhanh).
+	x = dongNai
+2. ?- belongsto(kbang,X).
+	X = giaLai
+	X = tayNguyen
+	X = vietNam
+	false.
+3. ?- includes(dongNai,longKhanh).
+	true.
+4. ?- includes(dongNai,bauSen).
+	true.
+5. ?- sibling(bauSen,xuanLap).
+	true.
+6. ?- sibling(longKhanh,X).
+	X = bienHoa
+	X = camMy
+	false.
+7. ?- sibling(dongNai,giaLai).
+	true.
+8. ?- belongsto(diAn,X).
+	X = binhDuong
+	X = dongNamBo
+	X = vietNam
+	false.
+9. ?- includes(binhDuong,anPhu).
+	false.
+10. ?- include(binhDuong,pleiku).
+	false.
+11. ?- belongto(dongNai,X).
+	X = dongNamBo
+	false.
+12. ?- includes(vietNam,lamDong).
+	false.
+13. ?- sibling(daLat,dongHa).
+	true.
+14. ?- sibling(tramHanh,X).
+	X = xuanTho
+	false.
+15. ?- sibling(tayNguyen,bacTrungBo).
+	true.
+16. ?- sibling(camHieu,X).
+	X = camChinh
+	false.
+17. ?- belongsto(camHieu,diAn).
+	false.
+18. ?- includes(quangTri,X).
+	X = dongHa
+	X = camLo
+	X = vinhLinh
+	X = dongGiang
+	X = dongLe
+	false.
+19. ?- belongsto(camLo,X).
+	X = quangTri
+	X = bacTrungBo
+	X = vietNam
+	false.
+20. ?- sibling(kimThach,hienThanh).
+	true.

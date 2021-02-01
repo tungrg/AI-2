@@ -1,0 +1,47 @@
+1. ?- grandparent(X,isla).
+	X = captain_Mark
+	X = pAnne
+2. ?- child(X,qElizabethII).
+	X = pCharles
+	X = pAnne
+	X = pAndrew
+	X = pEdward
+3. ?- sibling(pWilliam,pHarry).
+	true.
+4. ?- sibling(pWilliam,pBeatrice).
+	false.
+5. ?- son(X,peter).
+	false.
+6. ?- daughter(X,peter).
+	X = savannah
+	X = isla
+7. ?- uncle(X,isla).
+	false.
+8. ?- aunt(X,pWilliam).
+	X = pAnne
+9. ?- mother(X,pBeatrice).
+	X = sarah
+10. ?- wife(X,peter).
+	X = autumn
+11. ?- husband(timothy,pDiana).
+	false.
+12. ?- grandfather(pPhillip,zara).
+	true.
+13. ?- grandmother(X,james).
+	X = qElizabethII
+14. ?- nephew(X,pCharles).
+	X = peter
+	X = james
+15. ?- niece(mia_Grace,qElizabethII).
+	false.
+16. ?- brother(X,pEdward).
+	X = pCharles
+	X = pAndrew
+17. ?- niece(pCharlotte,savannah).
+	false.
+18. ?- sister(lady_Louise,james).
+	true.
+19. ?- married(pDiana,pCharles).
+	false.
+20. ?- divorced(sarah,pAndrew).
+	true.
